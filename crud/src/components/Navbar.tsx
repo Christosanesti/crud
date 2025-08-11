@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
 import { HomeIcon, Sprout } from 'lucide-react'
+import { ModeToggle } from './ModeToggle'
 
 const Navbar = () => {
   return (
@@ -27,6 +28,7 @@ const Navbar = () => {
               <span className='hidden lg:inline'>Plants</span>
             </Link>
           </Button>
+        <ModeToggle />
         </div>
       </div>
     </nav>
